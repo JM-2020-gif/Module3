@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.2rem;
+    min-height: 100%;
+}
+
+.header{
+    grid-area: header;
+    background-color: #211E26;
+}
+
+.navbar{
+    font-size: 30px;
+    grid-area: navbar;
+    background-color: #211E26;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    border: 1px solid;
+    box-shadow: -2px 0px 1px 1px;
+    border-radius: 5em 0 0 5em;
+    background: linear-gradient(90deg, rgb(131 89 176 / 83%) 0%, rgb(131 89 176 / 4%) 100%);
+}
+
+.main{
+    grid-area: main;
+    background-color: #D3CDCE;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: #990808;
+}
+
+.songPlay{
+    grid-area: songPlay;
+    background-color: rosybrown;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: darkorange;
+}
+
+.grid-container > * {
+    padding: 10px;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+      grid-template: 
+        "header   navbar" 90px /*alto de fila*/
+         "main   main" auto  /*alto de fila*/
+         "sidebar  sidebar"   50px /*alto de fila*/
+         "songPlay songPlay" 150px
+         "footer   footer" 90px /*alto de fila*/
+         /70% auto;/* ancho columna 1 de 200px y ancho columna 2 automatico*/
+}
+
+@media (min-width: 600px){
+    .grid-container{
+
+        grid-template: 
+         "header   header" 100px /*alto de fila*/
+         "navbar   main" auto /*alto de fila*/
+         "sidebar  sidebar" 50px /*alto de fila*/
+         "songPlay  footer" 100px /*alto de fila*/
+         / 250px   auto /* ancho columna 1 de 200px y ancho columna 2 automatico*/
+        ;
+    }
+
+}
+
+@media (min-width: 900px){
+    .grid-container{
+        grid-template-rows: 100px auto 50px 100px;  /*Fila 1 tendra 100px, fila dos tendra 50px, fila 3 tomara tamaño automatico y fila 4 100px*/
+        grid-template: 
+        "header   header" 100px /*alto de fila*/
+        "navbar   main" auto /*alto de fila*/
+        "sidebar  sidebar" 50px /*alto de fila*/
+        "songPlay  footer" 100px /*alto de fila*//* ancho columna 1 de 200px, ancho columna 2 automatico y ancho columna 3 200px*/
+        /350px auto
+        ;
+    }
+}
