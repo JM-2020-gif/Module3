@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0bb0206607fed786f73d7dde35a4c60f8e7cf63d
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
 
 * {
@@ -24,6 +28,11 @@ body {
 
 .navbar{
     font-size: 20px;
+<<<<<<< HEAD
+=======
+
+    font-size: 30px;
+>>>>>>> 0bb0206607fed786f73d7dde35a4c60f8e7cf63d
     grid-area: navbar;
     background-color: #211E26;
 }
@@ -43,6 +52,20 @@ li:hover {
 .main{
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
+<<<<<<< HEAD
+=======
+    text-decoration: none;
+}
+
+li {
+    border: 1px solid;
+    box-shadow: -2px 0px 1px 1px;
+    border-radius: 5em 0 0 5em;
+    background: linear-gradient(90deg, rgb(131 89 176 / 83%) 0%, rgb(131 89 176 / 4%) 100%);
+}
+
+.main{
+>>>>>>> 0bb0206607fed786f73d7dde35a4c60f8e7cf63d
     grid-area: main;
     background-color: #D3CDCE;
 }
@@ -72,6 +95,11 @@ li:hover {
 .grid-container{
     display: grid;
       grid-template: /*using grid to position*/
+<<<<<<< HEAD
+=======
+
+      grid-template: 
+>>>>>>> 0bb0206607fed786f73d7dde35a4c60f8e7cf63d
         "header   navbar" 90px /*alto de fila*/
          "main   main" auto  /*alto de fila*/
          "sidebar  sidebar"   50px /*alto de fila*/
@@ -79,11 +107,14 @@ li:hover {
          "footer   footer" 90px /*alto de fila*/
          /80% auto;/* ancho columna 1 de 200px y ancho columna 2 automatico*/
          ;
+<<<<<<< HEAD
+=======
+         /70% auto;/* ancho columna 1 de 200px y ancho columna 2 automatico*/
+>>>>>>> 0bb0206607fed786f73d7dde35a4c60f8e7cf63d
 }
 
 @media (min-width: 600px){
     .grid-container{
-
         grid-template: 
          "header   header" 100px /*alto de fila*/
          "navbar   main" auto /*alto de fila*/
@@ -104,6 +135,10 @@ li:hover {
         "sidebar  sidebar" 50px /*alto de fila*/
         "songPlay  footer" 100px /*alto de fila*//* ancho columna 1 de 200px, ancho columna 2 automatico y ancho columna 3 200px*/
         /300px auto
+<<<<<<< HEAD
+=======
+        /350px auto
+>>>>>>> 0bb0206607fed786f73d7dde35a4c60f8e7cf63d
         ;
     }
 }
