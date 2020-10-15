@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
 
-=======
->>>>>>> 931f07f5d8fd91ebd847aa69e42087229744aaef
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,35 +11,23 @@ html{
 }
 
 body {
-<<<<<<< HEAD
-=======
-    font-family: "Public Sans", sans-serif;
->>>>>>> 931f07f5d8fd91ebd847aa69e42087229744aaef
     font-size: 1.2rem;
     min-height: 100%;
 }
 
 .header{
-<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
     color:#fff9f9 ;
-=======
->>>>>>> 931f07f5d8fd91ebd847aa69e42087229744aaef
     grid-area: header;
     background-color: #211E26;
 }
 
 .navbar{
-<<<<<<< HEAD
     font-size: 20px;
-=======
-    font-size: 30px;
->>>>>>> 931f07f5d8fd91ebd847aa69e42087229744aaef
     grid-area: navbar;
     background-color: #211E26;
 }
 a {
-<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
     color: #fff9f9;
     text-decoration: none;
@@ -58,46 +43,24 @@ li:hover {
 .main{
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
-=======
-    text-decoration: none;
-}
-
-li {
-    border: 1px solid;
-    box-shadow: -2px 0px 1px 1px;
-    border-radius: 5em 0 0 5em;
-    background: linear-gradient(90deg, rgb(131 89 176 / 83%) 0%, rgb(131 89 176 / 4%) 100%);
-}
-
-.main{
->>>>>>> 931f07f5d8fd91ebd847aa69e42087229744aaef
     grid-area: main;
     background-color: #D3CDCE;
 }
 
 .sidebar{
-<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
-=======
->>>>>>> 931f07f5d8fd91ebd847aa69e42087229744aaef
     grid-area: sidebar;
     background-color: #990808;
 }
 
 .songPlay{
-<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
-=======
->>>>>>> 931f07f5d8fd91ebd847aa69e42087229744aaef
     grid-area: songPlay;
     background-color: rosybrown;
 }
 
 .footer{
-<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
-=======
->>>>>>> 931f07f5d8fd91ebd847aa69e42087229744aaef
     grid-area: footer;
     background-color: darkorange;
 }
@@ -108,22 +71,14 @@ li {
 }
 .grid-container{
     display: grid;
-<<<<<<< HEAD
       grid-template: /*using grid to position*/
-=======
-      grid-template: 
->>>>>>> 931f07f5d8fd91ebd847aa69e42087229744aaef
         "header   navbar" 90px /*alto de fila*/
          "main   main" auto  /*alto de fila*/
          "sidebar  sidebar"   50px /*alto de fila*/
          "songPlay songPlay" 150px
          "footer   footer" 90px /*alto de fila*/
-<<<<<<< HEAD
          /80% auto;/* ancho columna 1 de 200px y ancho columna 2 automatico*/
          ;
-=======
-         /70% auto;/* ancho columna 1 de 200px y ancho columna 2 automatico*/
->>>>>>> 931f07f5d8fd91ebd847aa69e42087229744aaef
 }
 
 @media (min-width: 600px){
@@ -148,11 +103,7 @@ li {
         "navbar   main" auto /*alto de fila*/
         "sidebar  sidebar" 50px /*alto de fila*/
         "songPlay  footer" 100px /*alto de fila*//* ancho columna 1 de 200px, ancho columna 2 automatico y ancho columna 3 200px*/
-<<<<<<< HEAD
         /300px auto
-=======
-        /350px auto
->>>>>>> 931f07f5d8fd91ebd847aa69e42087229744aaef
         ;
     }
 }
